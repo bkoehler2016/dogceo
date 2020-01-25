@@ -1,5 +1,5 @@
 import React from "react";
-import { Header, Input, Image, Button, Container } from "semantic-ui-react";
+import { Input, Image, Button, Container } from "semantic-ui-react";
 
 class dogDisplay extends React.Component {
   state = {
@@ -37,7 +37,7 @@ class dogDisplay extends React.Component {
   render() {
     return (
       <div className="App">
-        <Header as="h1">Hello Doggos</Header>
+        <h1>Hello Doggos</h1>
         <Input
           type="text"
           value={this.state.doggoText}
